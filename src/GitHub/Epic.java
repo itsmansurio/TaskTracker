@@ -1,7 +1,9 @@
+package GitHub;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Epic extends Task  {
+public class Epic extends Task {
     private List<Integer> subtaskIds = new ArrayList<>();
 
     public Epic(String name, String description, int id) {
@@ -12,7 +14,7 @@ public class Epic extends Task  {
         return subtaskIds;
     }
 
-    public void addSubtaskId( int subtaskId ) {
+    public void addSubtaskId(int subtaskId) {
         if (!subtaskIds.contains(subtaskId)) {
             subtaskIds.add(subtaskId);
         }

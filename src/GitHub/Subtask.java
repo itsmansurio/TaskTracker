@@ -1,3 +1,5 @@
+package GitHub;
+
 public class Subtask extends Task {
     private int epicId;
 
@@ -17,7 +19,7 @@ public class Subtask extends Task {
                 "  Описание: '" + description + "'," + System.lineSeparator() +
                 "  ID: " + id + "," + System.lineSeparator() +
                 "  Статус: " + status + "," + System.lineSeparator() +
-                "  Epic ID: " + epicId + System.lineSeparator() +
+                "  IsReady.MyVersion.RunTimeVersion.Version2.Epic ID: " + epicId + System.lineSeparator() +
                 '}';
     }
 
